@@ -10,7 +10,7 @@ body {
   align-items: center;
   color: white;
   font-family: Arial, sans-serif;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 #countdown-clock {
