@@ -9,8 +9,18 @@ function updateCountdown() {
   var minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
 
-  var countdownElement = document.getElementById("countdown");
+  /*var countdownElement = document.getElementById("countdown");
   countdownElement.textContent = days + " Days " + hours + " hours " + minutes + " minutes " + seconds + " seconds";
+  */
+  const clock = document.getElementById("countdown-clock");
+  const daysSpan = clock.querySelector('.days');
+  const hoursSpan = clock.querySelector('.hours');
+  const minutesSpan = clock.querySelector('.minutes');
+  const secondsSpan = clock.querySelector('.seconds');
+  daysSpan.innerHTML = days;
+	hoursSpan.innerHTML = hours;
+	minutesSpan.innerHTML = minutes;
+	secondsSpan.innerHTML = seconds;
 }
 
 // 每秒钟更新倒计时时钟
