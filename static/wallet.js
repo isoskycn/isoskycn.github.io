@@ -19,6 +19,7 @@ const walletAddresses = {
     const walletAddress = walletAddresses[selectedCrypto];
     if (selectedCrypto) {
       document.getElementById('walletAddress').innerText = walletAddress;
+      document.getElementById('qrcode').classList.remove('d-none');
       document.getElementById('copyButton').classList.remove('d-none');
       document.getElementById('copyButton').innerText = 'Copy Address';
       //qrcode
@@ -35,6 +36,7 @@ const walletAddresses = {
     
     } else {
       document.getElementById('walletAddress').innerText = '';
+      document.getElementById('qrcode').classList.add('d-none');
       document.getElementById('copyButton').classList.add('d-none');
       document.getElementById('qrcode').innerText = '';
       }

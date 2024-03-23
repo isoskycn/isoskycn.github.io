@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <title>isosky</title>
@@ -8,11 +9,13 @@
   <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <link href="static/style.css" rel="stylesheet">
 </head>
+
 <body>
   <div class="container mt-5">
     <div class="row">
       <div class="col-md-6 offset-md-3 text-center">
-        <img src="static/logo.png" alt="Avatar" class="img-fluid">
+        <!--<img src="static/logo.png" alt="Avatar" class="img-fluid">-->
+        <img src="static/icon/logo.png" class="img-responsive center-block img-circle logo-img">
         <h1>I will be back in</h1>
         <div id="countdown" class="mb-3 text-break"></div>
         <select id="cryptoSelect" class="form-control mb-3">
@@ -30,13 +33,16 @@
           <option value="doge">DOGE - Dogecoin</option>
         </select>
         <div id="walletAddress" class="mb-3 text-break"></div>
-        <div id="qrcode" class="mb-3"></div>
+        <div id="qrcode" class="mb-3 d-none"></div>
         <div class="mb-3"><button id="copyButton" class="btn btn-primary d-none">Copy Address</button></div>
         <div>
           <span>
-            <a href="http://wpa.qq.com/msgrd?v=3&uin=23426945&site=qq&menu=yes" target="_blank" class="mr-3"><img src="static/icon/QQ.png" title="527315" class="img"></a>
-            <a href="https://twitter.com/isoskycn" target="_blank" class="mr-3"><img src="static/icon/Twitter.png" title="isoskycn" class="img"></a>
-            <a href="mailto:isosky<isoskycn@gmail.com>" target="_blank" class="mr-3"><img src="static/icon/Email.png" title="isoskycn@gmail.com" class="img"></a>
+            <a href="http://wpa.qq.com/msgrd?v=3&uin=23426945&site=qq&menu=yes" target="_blank" class="mr-3"><img
+                src="static/icon/QQ.png" title="527315" class="img"></a>
+            <a href="https://twitter.com/isoskycn" target="_blank" class="mr-3"><img src="static/icon/Twitter.png"
+                title="isoskycn" class="img"></a>
+            <a href="mailto:isosky<isoskycn@gmail.com>" target="_blank" class="mr-3"><img src="static/icon/Email.png"
+                title="isoskycn@gmail.com" class="img"></a>
           </span>
         </div>
       </div>
@@ -47,4 +53,5 @@
 <script src="https://cdn.bootcdn.net/ajax/libs/qrcodejs/1.0.0/qrcode.js"></script>
 <script src="static/snowfall.js"></script>
 <script src="static/wallet.js"></script>
+
 </html>
