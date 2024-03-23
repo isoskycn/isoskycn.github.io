@@ -3,36 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <title>isosky</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" href="static/favicon.ico" />
   <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <link href="static/style.css" rel="stylesheet">
 </head>
 <body>
-  <img src="static/logo.png" alt="Avatar" class="img-fluid" width="256" height="256">
-  <div id="countdown-label"><h1>I will be back in</h1></div>
-  <div id="countdown"></div>
   <div class="container mt-5">
     <div class="row">
       <div class="col-md-6 offset-md-3 text-center">
+        <img src="static/logo.png" alt="Avatar" class="img-fluid">
+        <h1>I will be back in</h1>
+        <div id="countdown" class="mb-3 text-break"></div>
         <select id="cryptoSelect" class="form-control mb-3">
           <option style="display:none" selected>Click here to donate,Best wishes</option>
           <option value="btc_Legacy">BTC - Bitcoin Legacy</option>
           <option value="btc_P2SH">BTC - Bitcoin P2SH</option>
           <option value="btc_Segwit">BTC - Bitcoin Segwit</option>
-          <option value="btc_TaprootB">BTC - Bitcoin Taproot</option>
-          <option value="eth">ETH - Ethereum</option>
-          <option value="bnb">BNB - BNB Chain</option>
-          <option value="trx">TRX - Tron</option>
+          <option value="btc_TaprootB">BTC - Bitcoin Taproot (also BRC20)</option>
+          <option value="eth">ETH - Ethereum (also ERC20)</option>
+          <option value="bnb">BNB - BNB Chain (also BSC)</option>
+          <option value="trx">TRX - Tron (also TRC20)</option>
           <option value="sol">SOL - Solana</option>
-          <option value="ltc">LTC - Dogecoin</option>
+          <option value="ltc">LTC - Dogecoin (also DRC20)</option>
           <option value="bch">BCH - Bitcoin Cash</option>
           <option value="doge">DOGE - Dogecoin</option>
         </select>
-        <div id="walletAddress" class="mb-3"></div>
+        <div id="walletAddress" class="mb-3 text-break"></div>
         <div id="qrcode" class="mb-3"></div>
         <button id="copyButton" class="btn btn-primary mb-3 d-none">Copy Address</button>
         <div>
-          <span>E-mail:<a href="mailto:isosky<isoskycn@gmail.com>">isoskycn@gmail.com</a></span>
+          <span>
+            <a href="http://wpa.qq.com/msgrd?v=3&uin=23426945&site=qq&menu=yes" target="_blank" class="mr-3"><img src="static/icon/QQ.png" title="527315" class="img"></a>
+            <a href="https://twitter.com/isoskycn" target="_blank" class="mr-3"><img src="static/icon/Twitter.png" title="isoskycn" class="img"></a>
+            <a href="mailto:isosky<isoskycn@gmail.com>" target="_blank" class="mr-3"><img src="static/icon/Email.png" title="isoskycn@gmail.com" class="img"></a>
+          </span>
         </div>
       </div>
     </div>
