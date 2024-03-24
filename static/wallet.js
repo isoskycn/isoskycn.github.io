@@ -9,7 +9,7 @@ const walletAddresses = {
     trx: 'TUdrq6k6edxDyKt3gprRd2ak9Z2WL9qptD',
     sol: '2K1ANUjKLjojMsUr3kguFRCtuAEpFZfCSE5bDjdoA3bP',
     ltc: 'ltc1qvql4np5xej960cjz2aqlvpyhzuh44e4qpreavu',
-    bch: 'bitcoincash:qpx03gy5u92uk7rgtt3arem78hj7a47uj5uwg99dy5',
+    bch: 'qpx03gy5u92uk7rgtt3arem78hj7a47uj5uwg99dy5',
     doge: 'DPDjZui2rnFSz9cVzCGB9SR4vW7F8r5znu',
   };
 
