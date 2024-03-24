@@ -18,9 +18,9 @@ function updateCountdown() {
   const minutesSpan = clock.querySelector('.minutes');
   const secondsSpan = clock.querySelector('.seconds');
   daysSpan.innerHTML = days;
-	hoursSpan.innerHTML = hours;
-	minutesSpan.innerHTML = minutes;
-	secondsSpan.innerHTML = seconds;
+  hoursSpan.innerHTML = hours;
+  minutesSpan.innerHTML = minutes;
+  secondsSpan.innerHTML = seconds;
 }
 
 // 每秒钟更新倒计时时钟

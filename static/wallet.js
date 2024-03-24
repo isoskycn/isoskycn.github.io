@@ -3,12 +3,12 @@ const walletAddresses = {
     btc_Legacy: '17rDeuueLcYDv7KLPBHPnFbqi3sdiwLndv',
     btc_P2SH: '3DfjJsAc9sAMty92RMC5B8jTTe3xHEfNUJ',
     btc_Segwit: 'bc1qacrnrt0nklhvdnjnc609t905pm9mdxr66y0v0c',
-    btc_TaprootB: 'bc1prtvwvr7lqwmyh82rq83vq8dvyx9u366yma8d84lqytdgl6l6mtfsfuugfd',
+    btc_P2TR: 'bc1prtvwvr7lqwmyh82rq83vq8dvyx9u366yma8d84lqytdgl6l6mtfsfuugfd',
     eth: '0xa28001370cBa9ceF9E0190D48394d50A43F2f59A',
     bnb: '0xa28001370cBa9ceF9E0190D48394d50A43F2f59A',
     trx: 'TUdrq6k6edxDyKt3gprRd2ak9Z2WL9qptD',
     sol: '2K1ANUjKLjojMsUr3kguFRCtuAEpFZfCSE5bDjdoA3bP',
-    ltc: 'MMeU2xniv1aTNnJitpRNfpDn1PLU8LYDgM',
+    ltc: 'ltc1qvql4np5xej960cjz2aqlvpyhzuh44e4qpreavu',
     bch: 'bitcoincash:qpx03gy5u92uk7rgtt3arem78hj7a47uj5uwg99dy5',
     doge: 'DPDjZui2rnFSz9cVzCGB9SR4vW7F8r5znu',
   };
@@ -32,7 +32,16 @@ const walletAddresses = {
         colorDark : "#000000",
 	    colorLight : "#ffffff",
 	    correctLevel : QRCode.CorrectLevel.H
-    })
+    });
+    var canvas = qrCode.canvas;
+var ctx = canvas.getContext('2d');
+
+var img = new Image();
+img.src = 'static/icon/eth.svg';
+img.onload = function() {
+  var w = img.width, h = img.height, x = (128 - w) / 2, y = (128 - h) / 2;
+  ctx.drawImage(img, x, y, w, h);
+}; 
     
     } else {
       document.getElementById('walletAddress').innerText = '';
