@@ -1,16 +1,16 @@
 // Wallet addresses
 const walletAddresses = {
-    btc_Legacy: '1MvQQRuFukiSvhrdJMJsABHFFdnbm5DNAQ',
-    btc_P2SH: '3QSpkGkvs5UHthtuK5m6GAjHsAxAMLSYRd',
-    btc_Segwit: 'bc1qngtt2xc606rhyyrncydk2e4ytl5a6gmt28567g',
-    btc_TaprootB: 'bc1p073832uagnmeyfxhm2vc052j2eq7adjxk4l44tvjuuvnks2xa0sq8s65ln',
-    eth: '0x9174A67bAc2fFa02d805c30499de0422B730B661',
-    bnb: '0x9174A67bAc2fFa02d805c30499de0422B730B661',
-    trx: 'TYaFC4npndW6MgxFMdHdqYG1FWhSUST7K2',
-    sol: '8F61BxD7PpCZo1h9AEa8HobfmXUTPf1gxY36YVfj1bw4',
-    ltc: 'LUKyX2CVYPpcgrEaLbtWBobFRgF1VZxCLX',
-    bch: 'bitcoincash:qr4tmyjezwqe2ugezwmcv699s089d906ng2mav6d7g',
-    doge: 'DBNuG2wf4Mvv4Tmif8qxfm1nWSAKCRWs9E',
+    btc_Legacy: '17rDeuueLcYDv7KLPBHPnFbqi3sdiwLndv',
+    btc_P2SH: '3DfjJsAc9sAMty92RMC5B8jTTe3xHEfNUJ',
+    btc_Segwit: 'bc1qacrnrt0nklhvdnjnc609t905pm9mdxr66y0v0c',
+    btc_TaprootB: 'bc1prtvwvr7lqwmyh82rq83vq8dvyx9u366yma8d84lqytdgl6l6mtfsfuugfd',
+    eth: '0xa28001370cBa9ceF9E0190D48394d50A43F2f59A',
+    bnb: '0xa28001370cBa9ceF9E0190D48394d50A43F2f59A',
+    trx: 'TUdrq6k6edxDyKt3gprRd2ak9Z2WL9qptD',
+    sol: '2K1ANUjKLjojMsUr3kguFRCtuAEpFZfCSE5bDjdoA3bP',
+    ltc: 'MMeU2xniv1aTNnJitpRNfpDn1PLU8LYDgM',
+    bch: 'bitcoincash:qpx03gy5u92uk7rgtt3arem78hj7a47uj5uwg99dy5',
+    doge: 'DPDjZui2rnFSz9cVzCGB9SR4vW7F8r5znu',
   };
 
   // Function to handle tip button click
