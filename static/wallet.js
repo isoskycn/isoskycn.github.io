@@ -46,11 +46,9 @@ const walletAddresses = {
   // Function to handle copy button click
   document.getElementById('copyButton').addEventListener('click', function() {
     const walletAddressText = document.getElementById('walletAddress');
-    const range = document.createRange();
-    range.selectNode(walletAddressText);
     window.getSelection().removeAllRanges();
-    window.getSelection().addRange(range);
-    document.execCommand('copy');
+    window.getSelection().selectAllChildren(walletAddressText);
+    document.execCommand("Copy");
     window.getSelection().removeAllRanges();
     document.getElementById('copyButton').innerText = 'Copied to Clipboard!';
   });

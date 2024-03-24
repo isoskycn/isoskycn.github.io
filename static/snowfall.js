@@ -1,7 +1,7 @@
 // 更新倒计时时钟
 function updateCountdown() {
   var now = new Date();
-  var targetDate = new Date("2026-12-01 09:00");
+  var targetDate = new Date("2026-12-02 09:00");
   var timeDiff = targetDate.getTime() - now.getTime();
 
   var days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));

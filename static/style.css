@@ -10,7 +10,7 @@ body {
   align-items: center;
   color: white;
   font-family: Arial, sans-serif;
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 #countdown-clock {
@@ -108,7 +108,8 @@ body {
 
 @media (max-width: 576px) {
   .logo-img {
-    max-width: 100px;
+    max-width: 64px;
+    max-height: 64px;
     /* 小分辨率设备LOGO最大宽度 */
   }
 }
