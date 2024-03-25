@@ -7,6 +7,7 @@ const walletAddresses = {
   eth: '0xa28001370cBa9ceF9E0190D48394d50A43F2f59A',
   bnb: '0xa28001370cBa9ceF9E0190D48394d50A43F2f59A',
   trx: 'TUdrq6k6edxDyKt3gprRd2ak9Z2WL9qptD',
+  usdt: 'TUdrq6k6edxDyKt3gprRd2ak9Z2WL9qptD',
   sol: '2K1ANUjKLjojMsUr3kguFRCtuAEpFZfCSE5bDjdoA3bP',
   ltc: 'ltc1qvql4np5xej960cjz2aqlvpyhzuh44e4qpreavu',
   bch: 'qpx03gy5u92uk7rgtt3arem78hj7a47uj5uwg99dy5',
