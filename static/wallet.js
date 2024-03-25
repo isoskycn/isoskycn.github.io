@@ -23,7 +23,7 @@ document.getElementById('cryptoSelect').addEventListener('change', function () {
     document.getElementById('copyButton').classList.remove('d-none');
     document.getElementById('copyButton').innerText = 'Copy Address';
     //qrcode
-    const qrCodeDiv = document.getElementById('qrcode');
+    /*const qrCodeDiv = document.getElementById('qrcode');
     qrCodeDiv.innerHTML= ''; // Clear previous QR code
     const qrCode = new QRCode(qrCodeDiv, {
       text: walletAddress,
@@ -32,8 +32,8 @@ document.getElementById('cryptoSelect').addEventListener('change', function () {
       colorDark : "#000000",
     colorLight : "#ffffff",
     correctLevel : QRCode.CorrectLevel.H
-  });
-  /* //带logo二维码
+  });*/
+   //带logo二维码
     const qrCodeDiv = document.getElementById('qrcode');
     qrCodeDiv.innerHTML = '';
     const icon = new Image();
@@ -48,7 +48,7 @@ document.getElementById('cryptoSelect').addEventListener('change', function () {
       });
       imgQR(qrcode._oDrawing._elCanvas, this, 0.3)
     }
-    icon.src = './static/icon/'+selectedCrypto+'.svg';*/
+    icon.src = './static/icon/'+selectedCrypto+'.svg';
   } else {
     document.getElementById('walletAddress').innerText = '';
     document.getElementById('qrcode').classList.add('d-none');

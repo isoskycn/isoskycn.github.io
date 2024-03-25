@@ -57,7 +57,7 @@ function createSnowflake() {
     'static/icon/usdt.svg',
     'static/icon/usdc.svg',
     'static/icon/sol.svg',
-    'static/icon/dogecoin.svg',
+    'static/icon/doge.svg',
     'static/icon/ltc.svg',
   ];
   var img = data[Math.floor(Math.random() * data.length)];
