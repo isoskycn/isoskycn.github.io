@@ -33,16 +33,6 @@ const walletAddresses = {
 	    colorLight : "#ffffff",
 	    correctLevel : QRCode.CorrectLevel.H
     });
-    var canvas = qrCode.canvas;
-var ctx = canvas.getContext('2d');
-
-var img = new Image();
-img.src = 'static/icon/eth.svg';
-img.onload = function() {
-  var w = img.width, h = img.height, x = (128 - w) / 2, y = (128 - h) / 2;
-  ctx.drawImage(img, x, y, w, h);
-}; 
-    
     } else {
       document.getElementById('walletAddress').innerText = '';
       document.getElementById('qrcode').classList.add('d-none');
