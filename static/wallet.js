@@ -43,7 +43,7 @@ document.getElementById('cryptoSelect').addEventListener('change', function () {
         width: 128,
         height: 128,
         colorDark: "#000000",
-        colorLight: "#ffffff",
+        colorLight: "#FFFFFF",
         correctLevel: QRCode.CorrectLevel.H
       });
       imgQR(qrcode._oDrawing._elCanvas, this, 0.3)
