@@ -59,6 +59,7 @@ function createSnowflake() {
     'static/icon/sol.svg',
     'static/icon/doge.svg',
     'static/icon/ltc.svg',
+	'static/icon/ton.svg',
   ];
   var img = data[Math.floor(Math.random() * data.length)];
   snowflake.innerHTML = `<img src="${img}" class="img">`;
