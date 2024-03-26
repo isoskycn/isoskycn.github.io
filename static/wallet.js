@@ -12,7 +12,7 @@ const walletAddresses = {
   ltc: 'ltc1qvql4np5xej960cjz2aqlvpyhzuh44e4qpreavu',
   bch: 'qpx03gy5u92uk7rgtt3arem78hj7a47uj5uwg99dy5',
   doge: 'DPDjZui2rnFSz9cVzCGB9SR4vW7F8r5znu',
-  ton: 'UQAc5iYIRRU0h6PRWzoKT-MDPN1LnLuHSrR-had20VeHw7_3',
+  ton: 'UQCBa1jaKtPo83L_8sgKhipP85dyamCJGkL0PDlGfhoPe9vI',
 };
 
 // Function to handle tip button click
