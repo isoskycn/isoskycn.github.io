@@ -116,4 +116,7 @@ body {
     max-height: 64px;
     /* 小分辨率设备LOGO最大宽度 */
   }
+  /*.text-address {
+	text-align:left !important;
+  }*/
 }
